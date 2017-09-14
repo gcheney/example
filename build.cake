@@ -54,7 +54,7 @@ Task("Run-Unit-Tests")
 {
     NUnit3("./src/**/bin/" + configuration + "/*.Tests.dll", new NUnit3Settings {
         NoResults = true
-        });
+    });
 });
 
 //////////////////////////////////////////////////////////////////////
